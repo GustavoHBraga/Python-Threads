@@ -21,8 +21,7 @@ def contar(o_que, numero):
     for i in range(1, numero + 1):
         print(f'{i} {o_que}(s)...')
         time.sleep(1)
-
-
+        
 def main():
     args = [
         ['elefante',10],
